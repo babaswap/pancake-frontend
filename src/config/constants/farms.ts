@@ -4,7 +4,7 @@ import { FarmConfig } from './types'
 const farms: FarmConfig[] = [
   {
     pid: 0,
-    lpSymbol: 'CAKE',
+    lpSymbol: 'RABBIT',
     lpAddresses: {
       97: '0x9C21123D94b93361a29B2C2EFB3d5CD8B17e0A9e',
       56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
@@ -14,7 +14,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 1,
-    lpSymbol: 'CAKE-BNB LP',
+    lpSymbol: 'RABBIT-BNB LP',
     lpAddresses: {
       97: '0xe70b7523f4bffa1f2e88d2ba709afd026030f412',
       56: '0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6',
@@ -24,22 +24,22 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 107,
-    lpSymbol: 'pCWS-BNB LP',
+    lpSymbol: 'RABBIT-BNB LP',
     lpAddresses: {
       97: '',
       56: '0x889e81d25bffba437b2a5d3e0e4fc58a0e2749c5',
     },
-    token: tokens.pcws,
+    token: tokens.cake,
     quoteToken: tokens.wbnb,
   },
   {
     pid: 106,
-    lpSymbol: 'bBADGER-BTCB LP',
+    lpSymbol: 'RABBIT-BTCB LP',
     lpAddresses: {
       97: '',
       56: '0x10F461CEAC7A17F59e249954Db0784d42EfF5DB5',
     },
-    token: tokens.bbadger,
+    token: tokens.cake,
     quoteToken: tokens.btcb,
   },
   {
