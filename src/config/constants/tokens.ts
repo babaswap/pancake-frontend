@@ -4,7 +4,7 @@ const tokens = {
     projectLink: 'https://www.binance.com/',
   },
   cake: {
-    symbol: 'CAKE',
+    symbol: 'RABBIT',
     address: {
       56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
       97: '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
@@ -571,7 +571,7 @@ const tokens = {
     projectLink: 'https://compound.finance/',
   },
   syrup: {
-    symbol: 'SYRUP',
+    symbol: 'RABBIT',
     address: {
       56: '0x009cF7bC57584b7998236eff51b98A168DceA9B0',
       97: '0xfE1e507CeB712BDe086f3579d2c03248b2dB77f9',
