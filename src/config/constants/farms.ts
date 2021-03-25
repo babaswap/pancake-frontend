@@ -24,7 +24,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 107,
-    lpSymbol: 'RABBIT-BNB LP',
+    lpSymbol: 'RABBIT-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0x889e81d25bffba437b2a5d3e0e4fc58a0e2749c5',
@@ -34,13 +34,13 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 106,
-    lpSymbol: 'RABBIT-BTCB LP',
+    lpSymbol: 'USDT-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0x10F461CEAC7A17F59e249954Db0784d42EfF5DB5',
     },
-    token: tokens.cake,
-    quoteToken: tokens.btcb,
+    token: tokens.usdt,
+    quoteToken: tokens.busd,
   },
   {
     pid: 104,
